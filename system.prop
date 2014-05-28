@@ -1,0 +1,23 @@
+#
+# JIAKE P6 (MT6582)
+# ONEROM
+# Android 4.4
+# DANIIL2017
+#
+rild.libpath=/system/lib/mtk-ril.so
+rild.libargs=-d /dev/ttyC0
+dalvik.vm.execution-mode=int:jit
+dalvik.vm.heapgrowthlimit=128m
+dalvik.vm.heapsize=256m
+dalvik.vm.mtk-stack-trace-file=/data/anr/mtk_traces.txt
+ro.sf.lcd_density=320
+ro.sf.hwrotation=0
+wifi.interface=wlan0
+ro.mediatek.wlan.wsc=1
+ro.mediatek.wlan.p2p=1
+mediatek.wlan.ctia=0
+wifi.tethering.interface=ap0
+wifi.direct.interface=p2p0
+persist.sys.usb.config=mass_storage,adb
+ro.opengles.version=131072
+

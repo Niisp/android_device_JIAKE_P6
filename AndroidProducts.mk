@@ -1,0 +1,8 @@
+#
+# JIAKE P6 (MT6582)
+# ONEROM
+# Android 4.4
+# DANIIL2017
+#
+PRODUCT_MAKEFILES := \
+$(LOCAL_DIR)/P6.mk

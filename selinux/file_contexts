@@ -1,0 +1,23 @@
+/dev/mali(/.*)? u:object_r:mali_device:s0
+/dev/modem.*		u:object_r:radio_device:s0
+/dev/mpu		u:object_r:gps_device:s0
+/dev/mpuirq		u:object_r:gps_device:s0
+/dev/gps(/.*)? u:object_r:gps_device:s0
+/dev/stpgps(/.*)? u:object_r:stpgps_device:s0
+/dev/socket/bluetooth(/.*)? u:object_r:bluetooth_socket:s0
+/dev/socket/dbus_bluetooth(/.*)? u:object_r:dbus_bluetooth_socket:s0
+/dev/socket/bluetooth	u:object_r:bluetooth_socket:s0
+/data/misc/bluetooth(/.*)?	u:object_r:bluetooth_data_file:s0
+/data/misc/bluedroid(/.*)?	u:object_r:bluetooth_data_file:s0
+/sys/class/rfkill/rfkill[0-9]*/state -- u:object_r:sysfs_bluetooth_writable:s0
+/sys/class/rfkill/rfkill[0-9]*/type -- u:object_r:sysfs_bluetooth_writable:s0
+/dev/binder		u:object_r:binder_device:s0
+/dev/block(/.*)?	u:object_r:block_device:s0
+/dev/block/loop[0-9]*	u:object_r:loop_device:s0
+/dev/block/ram[0-9]*	u:object_r:ram_device:s0
+/data/misc/wifi(/.*)?		u:object_r:wifi_data_file:s0
+/dev/wmtWifi(/.*)? u:object_r:wmtWifi_device:s0
+/dev/hwmsensor(/.*)? u:object_r:hwmsensor_device:s0
+/dev/msensor(/.*)? u:object_r:msensor_device:s0
+/dev/gsensor(/.*)? u:object_r:gsensor_device:s0
+/dev/sensor(/.*)? u:object_r:sensor_device:s0
