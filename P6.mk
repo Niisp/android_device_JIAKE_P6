@@ -1,6 +1,6 @@
 #
 # JIAKE P6 (MT6582)
-# ONEROM
+# ANDROID-ONEROM
 # Android 4.4
 # DANIIL2017
 #
@@ -9,8 +9,8 @@ PRODUCT_AAPT_CONFIG := hdpi xhdpi
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
-#PRODUCT_COPY_FILES += \
-#$(LOCAL_PATH)/kernel:kernel
+PRODUCT_COPY_FILES += \
+$(LOCAL_PATH)/kernel:kernel
 PRODUCT_COPY_FILES += \
     device/JIAKE/P6/ramdisk/fstab.mt6582:root/fstab.mt6582 \
     device/JIAKE/P6/ramdisk/init.modem.rc:root/init.modem.rc \

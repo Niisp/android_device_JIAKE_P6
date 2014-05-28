@@ -1,6 +1,6 @@
 #
 # JIAKE P6 (MT6582)
-# ONEROM
+# ANDROID-ONEROM
 # Android 4.4
 # DANIIL2017
 #

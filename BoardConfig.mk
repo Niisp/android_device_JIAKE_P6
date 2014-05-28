@@ -1,6 +1,6 @@
 #
 # JIAKE P6 (MT6582)
-# ONEROM
+# ANDROID-ONEROM
 # Android 4.4
 # DANIIL2017
 #
@@ -48,6 +48,6 @@ TARGET_RECOVERY_FSTAB := device/JIAKE/P6/ramdisk/recovery/recovery.fstab
 #BOARD_KERNEL_PAGESIZE :=
 BOARD_EGL_CFG := device/JIAKE/P6/configs/egl.cfg
 PLATFORM_MTK := true
-MAKE_ARM_KERNEL := true
-TARGET_KERNEL_SOURCE := kernel/JIAKE/P6
-MTK_PROJECT := tinno82_wet_jb5
+#MAKE_ARM_KERNEL := true
+#TARGET_KERNEL_SOURCE := kernel/JIAKE/P6
+#MTK_PROJECT := 
